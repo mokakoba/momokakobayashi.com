@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm dev)",
+      "Bash(md5 /Users/mokakoba/Documents/momokakobayashi.com/public/living_room.jpg ~/Downloads/living_room.jpg)"
+    ]
+  }
+}
