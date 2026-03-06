@@ -2,7 +2,7 @@ import './global.css'
 import type { Metadata } from 'next'
 import { GeistSans } from 'geist/font/sans'
 import { GeistMono } from 'geist/font/mono'
-import { Cormorant_Garamond, M_PLUS_Rounded_1c } from 'next/font/google'
+import { Cormorant_Garamond } from 'next/font/google'
 import { Navbar } from './components/nav'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
@@ -15,11 +15,6 @@ const cormorant = Cormorant_Garamond({
   variable: '--font-cormorant',
 })
 
-const mPlusRounded = M_PLUS_Rounded_1c({
-  subsets: ['japanese'],
-  weight: ['300', '400'],
-  variable: '--font-mplus',
-})
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
@@ -63,8 +58,7 @@ export default function RootLayout({
         'text-stone-900 bg-[#f0ebe2] dark:text-stone-100 dark:bg-[#18140d]',
         GeistSans.variable,
         GeistMono.variable,
-        cormorant.variable,
-        mPlusRounded.variable
+        cormorant.variable
       )}
     >
       <body className="antialiased max-w-xl mx-6 mt-8 lg:mx-auto">
