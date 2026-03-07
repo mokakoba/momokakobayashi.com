@@ -10,7 +10,7 @@ export function Navbar() {
     <nav className="flex items-center justify-between mb-8 py-2">
       <Link
         href="/"
-        className="font-[family-name:var(--font-cormorant)] text-lg font-light tracking-widest text-stone-800 dark:text-stone-200 hover:opacity-70 transition-opacity"
+        className="text-sm font-medium text-stone-800 dark:text-stone-200 hover:opacity-70 transition-opacity"
       >
         Momoka Kobayashi
       </Link>

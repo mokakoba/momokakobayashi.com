@@ -25,8 +25,8 @@ export default function Page() {
       </div>
 
       <div className="mb-10">
-        <p className="text-sm italic text-stone-600 dark:text-stone-400 leading-relaxed">
-          Momoka Kobayashi — somewhere between engineer and artist, New York and somewhere else. Builds systems,
+        <p className="text-sm text-stone-400 dark:text-stone-500 leading-relaxed">
+          Somewhere between engineer and artist, New York and somewhere else. I like building systems,
           maps that hold places, and stories that preserve what slips away.
         </p>
       </div>

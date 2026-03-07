@@ -2,7 +2,12 @@
   "permissions": {
     "allow": [
       "Bash(pnpm dev)",
-      "Bash(md5 /Users/mokakoba/Documents/momokakobayashi.com/public/living_room.jpg ~/Downloads/living_room.jpg)"
+      "Bash(md5 /Users/mokakoba/Documents/momokakobayashi.com/public/living_room.jpg ~/Downloads/living_room.jpg)",
+      "Bash(git add app/layout.tsx && git commit -m \"remove unused M_PLUS_Rounded_1c font\" && git push)",
+      "Bash(git add app/notes/utils.ts app/notes/posts/.gitkeep app/stories/posts/.gitkeep && git commit -m \"handle missing posts directories gracefully\" && git push)",
+      "Bash(pnpm add next-mdx-remote@latest)",
+      "Bash(git add package.json pnpm-lock.yaml && git commit -m \"update next-mdx-remote to 6.0.0\" && git push)",
+      "Bash(git add -A && git commit -m \"refine home page typography and blurb\" && git push)"
     ]
   }
 }
